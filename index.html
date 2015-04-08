@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/main.css">
+		<link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+		<h1>Food Truck</h1>
+		<h2>A happy place to enjoy lunch in Washington, DC</h2>
+		<div class="veg">
+			<p>veggie pocket<span class="price">$8</span><br /><small>
+				Mustard kale chard beet greens black-eyed pea sorrel garlic tigernut spring onion summer purslane asparagus lentil.</small></p>
+		</div>
+
+		<div class="chicken">
+			<p>chicken pocket<span class="price">$10</span><br /><small>
+			 Tri-tip capicola kielbasa salami brisket chicken rump strip steak drumstick. Meatloaf chuck boudin ribeye pork jowl.</small></p>
+		</div>
+
+		<div class="pork">
+			
+			<p>pork pocket<span class="price">$10</span><br /><small>Andouille bacon jowl meatloaf pork loin prosciutto bresaola Andouille bacon jowl meatloaf pork loin prosciutto bresaola</small></p>
+		</div>
+
+	</body>
+	<script src="js/jquery.js">
+	</script>
+	<script>
+		$('div').on('click', function(){
+			$(this).toggleClass('show-description');
+		})
+	</script>
+</html>

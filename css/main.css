@@ -1,0 +1,86 @@
+body {
+  font-family: 'Gloria Hallelujah', sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+  background-color: #FFF0E0;
+}
+h1{
+	margin: 0px 0 70px 0;
+	font-size: 60px;
+}
+h2{
+	margin: -50px 0 70px 0;
+	font-size: 18px;
+}
+div{
+	height: 340px;
+	position: relative;
+	margin-top: 40px;
+	border-radius: 12px;
+	font-size: 16px;
+}
+.veg{
+	background-image: url("../images/veg.jpg");
+	background-size: cover;
+}
+
+.chicken{
+	background-image: url("../images/chicken.jpg");
+	background-size: cover;
+}
+.pork{
+	background-image: url("../images/pork.jpg");
+	background-size: cover;
+}
+p{
+	background: black;
+	background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	color: rgba(255, 255, 255, 1);
+	padding: 10px;
+	line-height: 28px;
+	text-align: justify;
+	position: absolute;
+	bottom: 0px;
+	margin: 0px;
+	border-radius: 12px;
+}
+small{
+	opacity: 0;
+}
+.show-description p{
+	height: 100px;
+
+}
+.show-description small{
+	opacity: 1;
+}
+
+span.price{
+	float: right;
+}
+@media(max-width: 500px){
+	body{
+		background: lightblue;
+	}
+	h1{
+		font-size: 40px;
+		margin-top: 20px;
+		line-height: 40px;
+
+	}
+	h2{
+		font-size: 20px;
+		margin-bottom: 30px;
+	}
+	div{
+		margin: 20px 12px 0px 12px;
+	}
+	small{
+		font-size: 16px;
+	}
+
+}
+
+
